@@ -8,3 +8,11 @@ def solution(n, k):
     
     answer = price_food + price_drink	#5
     return answer
+
+# def solution(n, k):
+#     service = n//10
+#     drink = max(0, k-service)
+#     return (12000*n)+(2000*drink)
+
+# def solution(n, k):
+#     return 12000 * n + 2000 * (k - n // 10)
